@@ -104,10 +104,10 @@ body
     --text-muted:                    var(--light1);
 
     --h1-color:                      var(--frost2);
-    --h2-color:                      var(--green);
-    --h3-color:                      var(--frost3);
-    --h4-color:                      var(--red);
-    --h5-color:                      var(--frost1);
+    --h2-color:                      var(--frost3);
+    --h3-color:                      var(--frost1);
+    --h4-color:                      var(--green);
+    --h5-color:                      var(--red);
     --h6-color:                      var(--yellow);
 
     --text-highlight-bg:             var(--frost1);
@@ -122,7 +122,7 @@ body
 
     --titlebar-text-color-focused:   var(--red);
 
-    --inline-title-color:            var(--yellow);
+    --inline-title-color:            var(--frost1);
 
     --bold-color:                    var(--yellow);
     --italic-color:                  var(--yellow);
