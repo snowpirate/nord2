@@ -1,6 +1,9 @@
 
 :root
 {
+    /* https://www.nordtheme.com/docs/colors-and-palettes */
+
+    /* Polar Night */
     --dark0_x:  46,52,64; /* #2e3440 */
     --dark0:    rgb(var(--dark0_x));
     --dark1_x:  59,66,82; /* #3b4252 */
@@ -10,6 +13,7 @@
     --dark3_x:  76,86,106; /* #4c566a */
     --dark3:    rgb(var(--dark3_x));
 
+    /* Snow Storm */
     --light0_x: 216,222,233; /* #d8dee9 */
     --light0:   rgb(var(--light0_x));
     --light1_x: 229,233,240; /* #e5e9f0 */
@@ -19,6 +23,7 @@
     --light3_x: 255,255,255; /* #ffffff */
     --light3:   rgb(var(--light3_x));
 
+    /* Frost */
     --frost0_x: 143,188,187; /* #8fbcbb */
     --frost0:   rgb(var(--frost0_x));
     --frost1_x: 136,192,208; /* #88c0d0 */
@@ -28,6 +33,7 @@
     --frost3_x: 94,129,172; /* #5e81ac */
     --frost3:   rgb(var(--frost3_x));
 
+    /* Aurora */
     --red_x:    191,97,106; /* #bf616a */
     --red:      rgb(var(--red_x));
     --orange_x: 208,135,112; /* #d08770 */
@@ -97,12 +103,12 @@ body
     --text-faint:                    var(--light0);
     --text-muted:                    var(--light1);
 
-    --h1-color:                      var(--red);
-    --h2-color:                      var(--yellow);
-    --h3-color:                      var(--green);
-    --h4-color:                      var(--purple);
-    --h5-color:                      var(--frost0);
-    --h6-color:                      var(--frost2);
+    --h1-color:                      var(--frost2);
+    --h2-color:                      var(--green);
+    --h3-color:                      var(--frost3);
+    --h4-color:                      var(--red);
+    --h5-color:                      var(--frost1);
+    --h6-color:                      var(--yellow);
 
     --text-highlight-bg:             var(--frost1);
     --text-highlight-fg:             var(--dark0);
